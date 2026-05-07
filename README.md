@@ -1,2 +1,2 @@
 # BST-Backed-Map-Container
-111
+Implemented a templated Map ADT (similar to std::map) that stores key-value pairs using a binary search tree as its underlying data structure. The Map delegates all storage and lookup operations to the BST through the has-a pattern, using a custom functor comparator to sort pairs by key only. Heavy use of C++ templates, functors, iterators, std::pair, and recursive data structures.
